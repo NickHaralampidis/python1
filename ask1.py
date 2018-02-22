@@ -29,7 +29,7 @@ for j in range (0,1000):
 					
 	p=p+v
 	min=80
-	for z in range (0,80):
+	for z in range (0,100):
 		if c[z]<min:
 			min=c[z]
 	sum=sum+min
