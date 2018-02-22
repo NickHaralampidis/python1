@@ -22,7 +22,7 @@ for line in file:
 	for i in range (0,100):
 		for j in range (0,c):
 			
-			if ((a[i][j:(j+d)])==line):
+			if ((a[i][j:(j+d)])==word):
 				c1=1
 	for i in range (0,100):
 		for j in range (0,c):
@@ -30,7 +30,7 @@ for line in file:
 			if (b[i][j:(j+d)])==word:
 				c1=1
 	if c1==1:
-		print p
+		print line
 	
 				
 		
